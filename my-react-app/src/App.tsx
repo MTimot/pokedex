@@ -1,7 +1,7 @@
 import "./App.css";
 
 import MyTitle from "./components/MyTitle";
-import PokemonCard from "./components/PokemonCard";
+import PokemonCard from "./Components/PokemonCard";
 function App() {
 	return (
 		<div>
