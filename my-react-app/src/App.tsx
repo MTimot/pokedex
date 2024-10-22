@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import MyTitle from "./components/MyTitle";
 import PokemonCard from "./Components/PokemonCard";
-
+import buttons from "./Components/NavBar.tsx";
 const pokemonList = [
 	{
 		name: "bulbasaur",
