@@ -8,7 +8,11 @@ interface pokemonprops {
 function PokemonCard({ pokemon }: pokemonprops) {
 	return (
 		<figure>
-			{pokemon.imgSrc ? <img src={pokemon.imgSrc} /> : <p>???</p>}
+			{pokemon.imgSrc ? (
+				<img src={pokemon.imgSrc} alt={pokemon.name} />
+			) : (
+				<p>???</p>
+			)}
 			<figcaption>{pokemon.name}</figcaption>
 		</figure>
 	);
