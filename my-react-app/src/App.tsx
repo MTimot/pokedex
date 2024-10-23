@@ -1,6 +1,5 @@
 import "./App.css";
 import { useState } from "react";
-import MyTitle from "./components/MyTitle";
 import PokemonCard from "./Components/PokemonCard";
 import NavBar from "./Components/NavBar.tsx";
 
